@@ -66,7 +66,7 @@ def ____banner____():
 def main():
     ____banner____()
     #print("[1] FILE CLONE [SOON] ")
-    print("[2] RANDOM CLONEv[SOON]");os.system("xdg-open https://t.me/ROOTJAHID")
+   # print("[2] RANDOM CLONEv[SOON]");os.system("xdg-open https://t.me/+yTVgZU4cwB8zMDQ1")
     print("[3] START CLONE [2009][WORK]")
 #    print("[4] NAGAD HALF INFO[]SOON")
   #  print("[5] NAGAD BAN [SOON]")
@@ -90,7 +90,7 @@ def main():
 
 def fuckMyxAXN(series):
     ____banner____()
-    #os.system("xdg-open https://t.me/+yTVgZU4cwB8zMDQ1")
+    os.system("xdg-open https://t.me/+yTVgZU4cwB8zMDQ1")
     global gen
     if series == "100000":
         SEX = "100000"
